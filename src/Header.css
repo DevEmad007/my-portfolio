@@ -1,0 +1,27 @@
+header {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightgreen ;
+  }
+  
+  header > h1 {
+    margin: 0 8px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+  
+  nav li {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+    display: inline;
+    margin-right: 40px;
+  }
+  
