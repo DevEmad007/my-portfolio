@@ -2,8 +2,6 @@ import './Navbar.css'
 
 
 const Navbar = (props) => {
-    const list = props.navList;
-
     return (
         <div className='header'>
             <header>
@@ -13,7 +11,7 @@ const Navbar = (props) => {
                 <nav>
                     <ul className='navList'>
                         <li>
-                            {list[0]}
+                            Home
                         </li>
                         <li>
                             Contact

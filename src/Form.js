@@ -5,8 +5,16 @@ const Form = () => {
     const [age, setAge] = useState("your age");
 
     const changeHandler = (name, age) => {
-        setName(name);
-        setAge(age);
+        if (name == "") {
+            setName("write something you dumb fuck");
+        } else {
+            setName(name);
+        }
+        if (age == "" || age == null) {
+            setAge("write number you dumb fuck");
+        } else {
+            setAge(age);
+        }
     };
 
     return (

@@ -1,8 +1,4 @@
-import { useState } from "react";
-
-const BlogList = ({ blogsData, title }) => {
-    const [blogs, setBlogs] = useState(blogsData);
-
+const BlogList = ({ blogs, title, handleDelete }) => {
     return (
         <div className="blog-list">
             <h1>{title}</h1>
@@ -10,6 +6,7 @@ const BlogList = ({ blogsData, title }) => {
                 <div className="blogPreview" key={blog.blogId}>
                     <h2>{blog.title}</h2>
                     <p>{blog.body}</p>
+                    <button onClick={() => handleDelete(blog.blogId)}>Delete</button>
                     <b>{"Written by " + blog.author}</b>
                 </div>
             ))}
