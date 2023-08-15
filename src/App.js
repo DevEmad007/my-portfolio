@@ -1,14 +1,14 @@
-import React from 'react'
-import './App.css'
-
-import Header from './Header'
-import Main from './Main'
+import './App.css';
+import Navbar from './Navbar';
+import Form from './Form';
+import Home from './Home';
 
 function App() {
   return (
     <div className='App'>
-      <Header/>
-      <Main/>
+      <Navbar />
+      <Form />
+      <Home />
     </div>
   );
 }

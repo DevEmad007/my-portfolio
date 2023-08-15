@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(213, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > span {
+    color: rgb(194, 160, 226);
+    font-size: 55px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+.navList {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(243, 81, 81, 0.856);
+}
+
+.navList li {
+    cursor: pointer;
+}
+
+.corrector {
+    margin-top: 100px;
+}
