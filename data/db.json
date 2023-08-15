@@ -1,0 +1,74 @@
+{
+    "blogs": [
+        {
+            "title": "My First JSON File",
+            "body": "This is my first JSON file. I'm excited to learn more about JSON!",
+            "author": "Bard",
+            "authorId": 12345,
+            "blogId": 1
+        },
+        {
+            "title": "My Second JSON File",
+            "body": "This is my second JSON file. I'm learning a lot about JSON!",
+            "author": "Alice",
+            "authorId": 54321,
+            "blogId": 2
+        },
+        {
+            "title": "My Third JSON File",
+            "body": "This is my third JSON file. I'm feeling confident about JSON now!",
+            "author": "Bob",
+            "authorId": 78901,
+            "blogId": 3
+        },
+        {
+            "title": "My Fourth JSON File",
+            "body": "This is my fourth JSON file. I'm ready to use JSON in my projects!",
+            "author": "Carol",
+            "authorId": 90123,
+            "blogId": 4
+        },
+        {
+            "title": "My Fifth JSON File",
+            "body": "This is my fifth JSON file. I'm loving using JSON!",
+            "author": "Dave",
+            "authorId": 32109,
+            "blogId": 5
+        },
+        {
+            "title": "My Sixth JSON File",
+            "body": "This is my sixth JSON file. I'm creating amazing things with JSON!",
+            "author": "Eve",
+            "authorId": 98765,
+            "blogId": 6
+        },
+        {
+            "title": "My Seventh JSON File",
+            "body": "This is my seventh JSON file. I'm a JSON master!",
+            "author": "Frank",
+            "authorId": 56789,
+            "blogId": 7
+        },
+        {
+            "title": "My Eighth JSON File",
+            "body": "This is my eighth JSON file. I'm teaching others about JSON!",
+            "author": "George",
+            "authorId": 10987,
+            "blogId": 8
+        },
+        {
+            "title": "My Ninth JSON File",
+            "body": "This is my ninth JSON file. I'm changing the world with JSON!",
+            "author": "Henry",
+            "authorId": 76543,
+            "blogId": 9
+        },
+        {
+            "title": "web party",
+            "body": "lorem ipsumoenjrgn....3",
+            "author": "yemad",
+            "blogId": 10,
+            "authorId": 7
+        }
+    ]
+}
