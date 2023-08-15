@@ -1,0 +1,27 @@
+.blog-list {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog-list > h1 {
+    color: coral;
+}
+
+.blogPreview * {
+    margin-top: 10px;
+}
+
+.blogPreview b {
+    position: relative;
+    left: 60px;
+    top: 10px;
+    z-index: -1;
+}
+
+.blogPreview b::before {
+    content: "-";
+}

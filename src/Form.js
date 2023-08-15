@@ -12,7 +12,12 @@ const Form = () => {
     return (
         <div
             className="formContainer"
-            style={{ textAlign: "center", fontFamily: "sans-serif", paddingBottom:"15px" ,boxShadow:"2px 2px 2px gray"}}
+            style={{
+                textAlign: "center",
+                fontFamily: "sans-serif",
+                paddingBottom: "15px",
+                boxShadow: "2px 2px 2px gray",
+            }}
         >
             <h1>Write in the box</h1>
             <div className="output">
