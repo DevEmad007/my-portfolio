@@ -1,7 +1,9 @@
 import './Navbar.css'
 
 
-const Navbar = () => {
+const Navbar = (props) => {
+    const list = props.navList;
+
     return (
         <div className='header'>
             <header>
@@ -11,7 +13,7 @@ const Navbar = () => {
                 <nav>
                     <ul className='navList'>
                         <li>
-                            Home
+                            {list[0]}
                         </li>
                         <li>
                             Contact
